@@ -1,0 +1,53 @@
+subject,group,age,gender,smoker,Edinburgh,PDI_all,PDI_distress,PDI_occupation,PDI_conviction,CAPS_total,CAPS_distress,CAPS_intrusive,CAPS_frequency,PANSSP,PANSSN,PANSSG,debriefing,SCID,med,cpz,duration,P1,P2,P3,P4,P5,P6,P7
+900028,1,22,0,1,63.64,19,65,61,63,7,26,20,23,24,34,58,"ok","Depression,psych. Störung, Angst, Drogen, Alkohol",3,0,3,5,5,3,4,4,2,1
+227671,1,33,0,1,100,26,83,70,64,21,56,69,50,25,33,33,"fehlt","psych. Störung, Angst, Zwang",2,150,10,6,2,7,1,4,4,1
+625268,1,29,0,1,100,22,52,61,109,12,33,31,33,19,19,33,"ok","psych. Störung, Zwang, Schmerz, Drogen",2,450,5,6,3,4,1,3,1,1
+878656,1,26,0,1,100,11,34,33,47,1,5,4,3,17,24,29,"ok","psychotische Störungen, Zwang, Angst, Körperwahrnehmung",2,210,1,3,1,2,1,3,5,2
+620263,1,26,0,0,100,9,22,22,29,5,10,9,8,15,24,30,"manchmal 3D","psychotische Störungen, Depression",2,50,8,2,2,5,1,1,3,1
+126994,1,33,0,1,100,15,68,57,72,2,10,9,10,21,31,51,"ok","psychotische Störung, Depression, Angst, Medikamente",1,187.5,14,6,5,1,1,1,6,1
+090409,0,30,0,1,50,18,40,38,30,12,46,45,20,NaN,NaN,NaN,"ok","Depression, sonst unauffällig",NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+814724,0,26,0,0,80,4,9,6,16,2,2,4,4,NaN,NaN,NaN,"4-5=3D",unauffällig,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+905792,0,24,0,0,70,1,2,3,2,5,7,11,8,NaN,NaN,NaN,"ok",unauffällig,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+126987,0,31,0,1,100,4,5,6,5,1,2,3,1,NaN,NaN,NaN,"ok","Depression, sonst unauffällig",NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+913376,0,23,0,1,70,6,7,8,20,4,5,9,4,NaN,NaN,NaN,"10%3D",unauffällig,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+632360,1,39,0,1,72.73,10,21,22,39,4,9,8,10,15,16,34,"ok","psychotische Störungen, Depression/Manie, Angst, Alkohol",2,25,22,2,3,2,2,2,3,1
+095986,1,30,0,1,100,8,22,15,17,3,3,3,6,9,12,24,"ok","psychotische Störungen, Depression, Manie, Angst, Zwang",2,150,4,2,2,1,1,1,1,1
+540601,1,44,0,0,100,21,80,71,62,18,8,60,51,26,30,33,"ok",schizoafektive Psychose,2,600,16,5,1,7,4,5,3,1
+482313,1,25,1,0,100,3,6,11,11,1,1,1,1,7,13,27,"ok","psychotische Störungen, Angst",2,150,1,1,1,1,1,1,1,1
+126988,1,22,1,1,-42.86,19,58,42,83,14,52,43,30,25,28,43,"ok","psychotische Störungen, Alkohol",2,300,22,5,6,4,1,5,3,1
+652685,1,31,1,0,100,13,39,37,59,2,2,2,3,22,14,36,"3*3D, 1* no report","psychotische Störungen, Angst, Medikamente",2,150,1,4,3,1,5,1,6,1
+392361,0,33,1,0,100,0,0,0,0,1,1,1,1,NaN,NaN,NaN,"ok",unauffällig,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+905793,0,31,0,1,-70,0,0,0,0,0,0,0,0,NaN,NaN,NaN,"ok",unauffällig,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+814725,0,40,0,1,90,7,24,23,27,2,4,4,3,NaN,NaN,NaN,"ok","Depression, Angst, Zwang, Schlafstörungen",NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+800281,0,32,1,0,100,0,0,0,0,0,0,0,0,NaN,NaN,NaN,"40%3D",unauffällig,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+141887,0,37,0,1,100,4,5,8,16,0,0,0,0,NaN,NaN,NaN,"ok",unauffällig,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+421762,0,26,0,1,81.81,5,45,39,39,1,1,1,1,NaN,NaN,NaN,"ok",Angst,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+814790,1,65,0,0,100,2,3,5,7,4,8,7,6,13,14,35,"ok","psychotische Störung, Depression, Schlaf,Zwang,Alkohol",3,0,44,2,2,3,1,1,3,1
+068428,0,26,0,1,36.36,14,42,39,50,12,32,29,29,NaN,NaN,NaN,"ok","psychotische Störung, Angst … Ausschließen!! ",NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+127091,1,43,0,0,-60,21,78,58,68,16,32,36,24,13,11,32,"ok","psychotische Störungen, Depression/Manie, Alkohol",2,150,14,2,1,6,1,1,1,1
+655478,1,44,0,1,69.23,11,35,20,47,6,13,17,9,22,21,45,"6*3d, 3*unklar,report, nicht geraten bei uncertain, rot grün schwäche","depression (bipolar?), psychotische störung",2,150,30,5,3,4,2,1,5,2
+959493,1,48,0,0,83.33,11,28,32,46,14,36,34,32,25,23,50,"evtl. Button presses missed","bipolar, psychotische störung",2,600,35,5,3,6,1,1,6,3
+770913,1,56,0,1,80,18,58,66,75,11,41,41,45,25,22,28,"30% unclear, no report!!","psychotische störung, Angst ,Drogen,Schlaf",3,0,29,4,6,6,2,2,4,1
+278500,1,41,0,1,62.5,14,48,38,31,10,31,30,29,12,22,34,"ok","psychot. Störung, Depression, Angst,PTSD, Zwang, Schlaf",2,300,24,3,2,3,1,1,1,1
+035712,0,44,0,1,81.81,6,14,13,18,6,12,11,8,NaN,NaN,NaN,"ok",unauffällig,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+217613,0,50,0,1,-14.29,2,2,4,9,3,5,4,3,NaN,NaN,NaN,"eventually stereoopsis weakness","PTSD,Alcohol,Novalgin",NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+437118,0,52,0,1,25,6,6,6,12,0,0,0,0,NaN,NaN,NaN,"ok","Schmerz, Alkohol",NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+500735,0,40,0,0,80,2,6,6,7,1,1,1,4,NaN,NaN,NaN,"15% 3D",unauffällig,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+757740,0,52,0,1,12.5,1,1,1,3,3,5,5,3,NaN,NaN,NaN,"ok",unauffällig,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+625470,0,26,1,0,100,0,0,0,0,0,0,0,0,NaN,NaN,NaN,"ok",unauffällig,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+193472,0,32,0,0,100,3,3,3,5,3,4,4,3,NaN,NaN,NaN,"ok","Depression, Schlafstörung",NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+410657,0,30,0,0,62.5,0,0,0,0,0,0,0,0,NaN,NaN,NaN,"ok",unauffällig,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+526740,0,32,0,1,84.63,3,5,5,5,0,0,0,0,NaN,NaN,NaN,"ok","Negativsymptome, Drogen, Schlafstörungen",NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+557293,0,30,0,0,100,2,3,4,8,0,0,0,0,NaN,NaN,NaN,"ok",Schlaftstörungen,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+467251,0,23,0,1,84.62,10,28,26,27,12,36,36,38,NaN,NaN,NaN,"ok","Depression, Alkohol, Schlafstörungen",NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+841790,0,35,1,0,100,7,10,10,13,3,5,5,3,NaN,NaN,NaN,"ok",unauffällig,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+245718,0,24,1,0,100,1,4,4,5,0,0,0,0,NaN,NaN,NaN,"ok",unauffällig,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+506384,0,28,0,1,86.66,4,9,5,8,4,14,14,5,NaN,NaN,NaN,"ok",unauffällig,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+637851,0,43,0,0,100,3,6,6,8,0,0,0,0,NaN,NaN,NaN,"ok",Blut-Spritzen-Phobie,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+728569,0,45,1,0,88.89,2,2,3,6,0,0,0,0,NaN,NaN,NaN,"ok",Schlafstörungen,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+197804,1,40,0,1,100,10,35,38,46,3,11,11,6,25,11,26,"ok",psychotische Störung,2,100,14,6,3,1,3,2,5,5
+341625,1,34,0,0,-40,15,48,48,50,6,25,25,24,19,27,41,"ok",pscyhotische Störung,2,90,10,4,5,3,1,1,5,1
+592483,1,41,0,1,53.84,1,3,4,1,3,9,8,7,12,21,18,"ok",psychotische Störung,2,150,22,1,3,1,2,1,3,1
+913725,1,21,1,1,45.45,28,80,95,119,12,37,48,43,24,9,32,"ok",psychotische Störung,3,0,0,6,4,3,2,4,3,2
+153282,1,51,1,0,100,10,20,20,28,5,9,16,11,7,7,20,"ok",psychotische Störung,2,300,15,1,1,1,1,1,1,1
+593331,1,44,0,1,100,26,74,65,115,12,36,36,33,20,8,18,"ok",,2,200,9,6,2,5,2,2,2,1
