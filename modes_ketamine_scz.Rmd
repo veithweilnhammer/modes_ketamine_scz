@@ -106,7 +106,7 @@ Veith Weilnhammer, Helen Wills Neuroscience Institute, University of California 
 
 # Abstract
 
-Perception alternates between an external mode, driven by sensory inputs, and an internal mode, shaped by prior knowledge. We found that the external mode is more prevalent during pharmacologically induced N-Methyl-D-aspartate receptor (NMDAR) hypofunction and in schizophrenia. This NMDAR-dependent increase in external mode suggests that psychotic experiences are caused by recurring dissociations of perception from prior knowledge about the world.
+Perception is known to alternate between an external mode, driven by sensory inputs, and an internal mode, shaped by prior knowledge about the world. Using a double-blind, placebo-controlled, cross-over experiment in healthy human participants, we investigated the effects of the N-Methyl-D-aspartate receptor (NMDAR) antagonist S-ketamine on the alternation between external and internal modes. We found that pharmacologically induced NMDAR hypofunction causes a shift of perception toward the external mode. Similarly, a case-control study revealed that individuals with paranoid schizophrenia, a disorder repeatedly associated with NMDAR hypofunction, spend more time in the external mode. This NMDAR-dependent increase in the external mode suggests that the symptoms of schizophrenia are caused by recurring dissociations of perception from prior knowledge about the world.
 
 # Main
 
@@ -1608,6 +1608,15 @@ For each experiment, computational modeling was carried out in a sequence of 3 s
 In a third step, we fitted the unimodal and the bimodal GLM-HMM to session-level data (S-ketamine experiment) and participant-level data (case-control experiment). Models were initialized by the average weights $w_n$ of the corresponding group-level model. For all bimodal group-, participant- and session-level GLM-HMMs, we defined the latent mode associated with the higher posterior $\beta_S$ estimate as external. Our definition of mode is thus agnostic with respect to $\beta_P$ and $\Delta_{S-P}$. This allowed us to contrast external-to-internal bimodal inference (hypothesis H2) with a third alternative where perception fluctuates between latent states that differ with respect to decision noise (**hypothesis H0**). Low decision noise is characterized by higher posterior estimates of $\beta_S$ and $\beta_P$, whereas high decision noise is characterized by lower posterior estimates of $\beta_S$ and $\beta_P$. $\Delta_{S-P}$ therefore discerns fluctuations in decision noise (H0, no changes in $\Delta_{S-P}$) from external-to-internal bimodal inference (H2, mode-associated changes in $\Delta_{S-P}$ with higher estimates during external mode). 
 
 For summary statistics, we extracted the posterior weights $w_k$ (separately for external and internal mode) and the dynamic posterior probability of external mode $z_t = e$.
+
+\newpage
+# Declaration of Interest
+
+The authors declare no competing interests.
+
+# Acknowledgements
+
+This work was funded by the Leopoldina Academy of Sciences (grant number: LDPS2022-16, [https://www.leopoldina.org/en/leopoldina-home/](https://www.leopoldina.org/en/leopoldina-home/)), the German Research Foundation DFG (grant number: STE 1430/8-1, [https://www.dfg.de](https://www.dfg.de)), the Berlin Institute of Health Clinician Scientist Program ([https://www.bihealth.org/en/translation/innovation-enabler/academy/bih-charite-clinician-scientist-program](https://www.bihealth.org/en/translation/innovation-enabler/academy/bih-charite-clinician-scientist-program)), and the German Ministry for Research and Education (ERA-NET NEURON program, grant number: 01EW2007A, [https://www.neuron-eranet.eu/](https://www.neuron-eranet.eu/)). The funders had no role in study design, data collection, data analysis, decision to publish, or preparation of the manuscript.
 
 \newpage
 # Figures

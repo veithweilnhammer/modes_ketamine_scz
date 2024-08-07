@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.18)  3 JUL 2024 17:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.18)  3 JUL 2024 18:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**modes_ketamine_scz_postprocessing.tex
-(./modes_ketamine_scz_postprocessing.tex
+**modes_ketamine_scz_postprocessing_no_fig.tex
+(./modes_ketamine_scz_postprocessing_no_fig.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -539,8 +539,8 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count309
 \l__pdf_internal_box=\box62
 )
-(./modes_ketamine_scz_postprocessing.aux)
-\openout1 = `modes_ketamine_scz_postprocessing.aux'.
+(./modes_ketamine_scz_postprocessing_no_fig.aux)
+\openout1 = `modes_ketamine_scz_postprocessing_no_fig.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
 LaTeX Font Info:    ... okay on input line 109.
@@ -737,77 +737,7 @@ Underfull \hbox (badness 1033) in paragraph at lines 795--796
  Berlin In-sti-tute of
  []
 
-[15]
-<modes_ketamine_scz_files/figure-latex/rev_Figure_1-1b.pdf, id=125, 465.5861pt 
-x 84.87665pt>
-File: modes_ketamine_scz_files/figure-latex/rev_Figure_1-1b.pdf Graphic file (t
-ype pdf)
-<use modes_ketamine_scz_files/figure-latex/rev_Figure_1-1b.pdf>
-Package pdftex.def Info: modes_ketamine_scz_files/figure-latex/rev_Figure_1-1b.
-pdf  used on input line 805.
-(pdftex.def)             Requested size: 465.59206pt x 84.87772pt.
- [16 <./modes_ketamine_scz_files/figure-latex/rev_Figure_1-1b.pdf>]
-[17]
-<modes_ketamine_scz_files/figure-latex/rev_Figure_2-1b.pdf, id=245, 537.40312pt
- x 356.89745pt>
-File: modes_ketamine_scz_files/figure-latex/rev_Figure_2-1b.pdf Graphic file (t
-ype pdf)
-<use modes_ketamine_scz_files/figure-latex/rev_Figure_2-1b.pdf>
-Package pdftex.def Info: modes_ketamine_scz_files/figure-latex/rev_Figure_2-1b.
-pdf  used on input line 855.
-(pdftex.def)             Requested size: 469.77557pt x 311.98497pt.
- [18 <./modes_ketamine_scz_files/figure-latex/rev_Figure_2-1b.pdf>]
-[19]
-<modes_ketamine_scz_files/figure-latex/rev_Supplemental_Figure_S1-1.pdf, id=358
-, 465.74004pt x 500.87125pt>
-File: modes_ketamine_scz_files/figure-latex/rev_Supplemental_Figure_S1-1.pdf Gr
-aphic file (type pdf)
-<use modes_ketamine_scz_files/figure-latex/rev_Supplemental_Figure_S1-1.pdf>
-Package pdftex.def Info: modes_ketamine_scz_files/figure-latex/rev_Supplemental
-_Figure_S1-1.pdf  used on input line 949.
-(pdftex.def)             Requested size: 465.7531pt x 500.88528pt.
- [20 <./modes_ketamine_scz_files/figure-latex/rev_Supplemental_Figure_S1-1.pdf>
-] [21]
-<modes_ketamine_scz_files/figure-latex/rev_Supplemental_Figure_S2-1.pdf, id=480
-, 465.74004pt x 499.8675pt>
-File: modes_ketamine_scz_files/figure-latex/rev_Supplemental_Figure_S2-1.pdf Gr
-aphic file (type pdf)
-<use modes_ketamine_scz_files/figure-latex/rev_Supplemental_Figure_S2-1.pdf>
-Package pdftex.def Info: modes_ketamine_scz_files/figure-latex/rev_Supplemental
-_Figure_S2-1.pdf  used on input line 995.
-(pdftex.def)             Requested size: 465.7531pt x 499.88152pt.
- [22 <./modes_ketamine_scz_files/figure-latex/rev_Supplemental_Figure_S2-1.pdf>
-] [23]
-<modes_ketamine_scz_files/figure-latex/rev_Supplemental_Figure_S3-1.pdf, id=569
-, 465.74004pt x 499.8675pt>
-File: modes_ketamine_scz_files/figure-latex/rev_Supplemental_Figure_S3-1.pdf Gr
-aphic file (type pdf)
-<use modes_ketamine_scz_files/figure-latex/rev_Supplemental_Figure_S3-1.pdf>
-Package pdftex.def Info: modes_ketamine_scz_files/figure-latex/rev_Supplemental
-_Figure_S3-1.pdf  used on input line 1064.
-(pdftex.def)             Requested size: 465.7531pt x 499.88152pt.
- [24 <./modes_ketamine_scz_files/figure-latex/rev_Supplemental_Figure_S3-1.pdf>
-] [25]
-<modes_ketamine_scz_files/figure-latex/rev_Supplemental_Figure_S4-1.pdf, id=669
-, 461.725pt x 428.60126pt>
-File: modes_ketamine_scz_files/figure-latex/rev_Supplemental_Figure_S4-1.pdf Gr
-aphic file (type pdf)
-<use modes_ketamine_scz_files/figure-latex/rev_Supplemental_Figure_S4-1.pdf>
-Package pdftex.def Info: modes_ketamine_scz_files/figure-latex/rev_Supplemental
-_Figure_S4-1.pdf  used on input line 1134.
-(pdftex.def)             Requested size: 461.72388pt x 428.6002pt.
- [26 <./modes_ketamine_scz_files/figure-latex/rev_Supplemental_Figure_S4-1.pdf>
-]
-<modes_ketamine_scz_files/figure-latex/Supplemental_Figure_S5-1.pdf, id=743, 46
-6.74374pt x 500.87125pt>
-File: modes_ketamine_scz_files/figure-latex/Supplemental_Figure_S5-1.pdf Graphi
-c file (type pdf)
-<use modes_ketamine_scz_files/figure-latex/Supplemental_Figure_S5-1.pdf>
-Package pdftex.def Info: modes_ketamine_scz_files/figure-latex/Supplemental_Fig
-ure_S5-1.pdf  used on input line 1158.
-(pdftex.def)             Requested size: 466.76396pt x 500.89293pt.
- [27 <./modes_ketamine_scz_files/figure-latex/Supplemental_Figure_S5-1.pdf>] [2
-8] [29] [30] [31]
+[15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28]
 Underfull \hbox (badness 10000) in paragraph at lines 1348--1355
 
  []
@@ -877,7 +807,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1448--1454
 
  []
 
-[32]
+[29]
 Underfull \hbox (badness 10000) in paragraph at lines 1455--1461
 
  []
@@ -952,7 +882,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1559--1565
 
  []
 
-[33]
+[30]
 Underfull \hbox (badness 10000) in paragraph at lines 1566--1571
 
  []
@@ -972,31 +902,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 1585--1590
 
  []
 
-[34] (./modes_ketamine_scz_postprocessing.aux) ) 
+[31] (./modes_ketamine_scz_postprocessing_no_fig.aux) ) 
 Here is how much of TeX's memory you used:
- 16488 strings out of 478287
- 271960 string characters out of 5849289
- 614322 words of memory out of 5000000
- 33988 multiletter control sequences out of 15000+600000
+ 16435 strings out of 478287
+ 268639 string characters out of 5849289
+ 614343 words of memory out of 5000000
+ 33946 multiletter control sequences out of 15000+600000
  527697 words of font info for 202 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,9n,106p,1030b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvi
-ps/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/
-texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-
-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/
-type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8
-.pfb>
-Output written on modes_ketamine_scz_postprocessing.pdf (34 pages, 2151200 byte
-s).
+ 108i,9n,106p,1037b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/
+enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr
+/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips
+/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf
+/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi1
+2.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmsy8.pfb>
+Output written on modes_ketamine_scz_postprocessing_no_fig.pdf (31 pages, 26612
+4 bytes).
 PDF statistics:
- 1085 PDF objects out of 1200 (max. 8388607)
- 829 compressed objects within 9 object streams
- 139 named destinations out of 1000 (max. 500000)
- 28956 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 502 PDF objects out of 1000 (max. 8388607)
+ 441 compressed objects within 5 object streams
+ 136 named destinations out of 1000 (max. 500000)
+ 28921 words of extra memory for PDF output out of 29859 (max. 10000000)
 
