@@ -4,6 +4,3 @@ This repository contains the data and code for **N-Methyl-D-aspartate receptor h
 
 ## How to use
 Please clone the repository and run the file "modes_ketamine_scz.Rmd". The script will load all summary data, run the statistical analyses presented in our manuscript, and produce the associated display items. 
-
-## Postprocessing
-Run "modes_ketamine_scz_postprocessing.tex" to generate the manuscript in its final form.
