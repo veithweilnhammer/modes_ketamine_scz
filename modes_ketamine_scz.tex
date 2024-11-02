@@ -160,6 +160,11 @@ Veith Weilnhammer, Helen Wills Neuroscience Institute, University of
 California Berkeley, USA, email:
 \href{mailto:veith.weilnhammer@gmail.com}{\nolinkurl{veith.weilnhammer@gmail.com}}\\
 
+\textbf{Running Title}: Failures of inference under ketamine
+
+\textbf{Keywords}: schizophrenia, psychosis, ketamine, predictive
+processing, bistable perception, modes of inference
+
 \newpage
 
 \linenumbers
@@ -353,6 +358,10 @@ rotational speed: 12 sec per rotation, rotations per block: 10,
 individual dot size: 0.12°) that rotates around a vertical axis with the
 front surface to the left or right\textsuperscript{33}. Stimuli were
 presented in 120 sec blocks, separated by 10 sec fixation intervals.
+Please note that we assessed participants' perception of the stimulus
+based on a fixed response mapping. In our paradigm, perception and
+reports are therefore inherently intertwined, with the participants'
+reports serving as the sole indicators of their perceptual states.
 
 Participants viewed the stimuli through a custom mirror stereoscope. In
 the pretest experiment, we presented stimuli at complete disambiguation
@@ -544,7 +553,7 @@ the stimulus overlap; see Supplemental Video S1-2). Following previous
 approaches\textsuperscript{28,33,42}, we defined response times \(r_t\)
 as the time between a button press that indicates a change in the
 perceived direction of rotation and the time of the preceding
-overlapping configuration of the stimulus.
+overlapping configuration of the stimulus (see Figure 1C).
 
 To assess differences in metacognitive performance, we correlated
 perceptual confidence with perceptual accuracy. We computed meta-d', a
@@ -733,6 +742,14 @@ probability of the actual experience \(y\), given the decision variable
 \[
 C_t = y_t \cdot \log(P(y_t = 1)) + (1 - y_t) \cdot \log(1 - P(y_t = 1)) 
 \]
+
+Please note that the interpretation of our results is inherently limited
+to the hypotheses incorporated in the above GLMs. In our paradigm,
+behavioral reports at the time of changes in experience served as the
+only indicators of the perceptual and metacognitive states of the
+participants. These behavioral reports were collected with a fixed
+stimulus-response mapping, such that the GLM-based analyses cannot fully
+separate perception and response behavior.
 
 \textbf{Recovery of GLM-HMM parameters.} To evaluate the robustness of
 our GLM-HMM model in estimating mode-dependent weights and transition
@@ -955,7 +972,9 @@ the contents of perception are evaluated by downstream cognition. The
 hypothesis that external and internal modes are perceptual phenomena
 needs to be contrasted against alternative scenarios in which external
 and internal modes are driven primarily by fluctuations in arousal,
-high-level cognition, or executive function.
+high-level cognition, or executive function. This is particularly
+important, as behavioral reports served as the sole indicators of
+perceptual states in our paradigm.
 
 To address these alternative accounts, we first performed additional
 tests to support our claim that external and internal mode operate at
@@ -1245,25 +1264,25 @@ for strong biases toward both external and internal
 modes\textsuperscript{26} argues against the interpretation of internal
 mode as disengaged behavior.
 
-Our present analyses of confidence and response times, as well as our
-time-resolved assessment of wakefulness, subjective intoxication, and
-nervousness, strongly support the idea that external and internal modes
-are perceptual phenomena, cannot be reduced to processes occurring
-solely at the level of task engagement, and are not mere reflections of
-fluctuations in arousal. These observations do not, however, rule out
-the possibility that external and internal modes have multiple and
-potentially independent effects on the brain, including influences on
-high-level cognition and response behavior, or that they are, to some
-degree, dependent on global brain states. No-report functional imaging
-experiments, where the content of experiences is decoded without overt
-behavioral signals\textsuperscript{70}, alongside pupillometry,
-manipulations of neuromodulators that regulate global brain states, or
-non-invasive brain stimulation, could help illuminate the causes and
-consequences of these modes across the cortical hierarchy. Mapping the
-neurocomputational dynamics of mode alternations will be crucial to
-testing whether adjusting the balance between modes can mitigate
-psychotic experiences and ultimately improve the lives of people living
-with Scz.
+These observations do not, however, rule out the possibility that
+external and internal modes have multiple and potentially independent
+effects on the brain, including influences on high-level cognition and
+response behavior, or that they are, to some degree, dependent on global
+brain states. Since our analyses rely on behavioral reports about
+changes in the content of perception, dynamic changes in response
+behavior represent an additional potential confound in the
+identification of external and internal modes. Future work should use
+trial-wise reports of perception and confidence with randomized response
+mappings to enable GLMs that can disentangle perception and response
+behavior. No-report functional imaging experiments, where the content of
+experiences is decoded without overt behavioral
+signals\textsuperscript{70}, alongside pupillometry, manipulations of
+neuromodulators that regulate global brain states, or non-invasive brain
+stimulation, could help illuminate the causes and consequences of these
+modes across the cortical hierarchy. Mapping the neurocomputational
+dynamics of mode alternations will be crucial to testing whether
+adjusting the balance between modes can mitigate psychotic experiences
+and ultimately improve the lives of people living with Scz.
 
 \section{Data availability}\label{data-availability}
 
@@ -1308,50 +1327,65 @@ The authors report no competing interests.
 
 \subsection{Figure 1}\label{figure-1}
 
-\includegraphics{./Material/Figure_1.png}
+\includegraphics{./modes_ketamine_scz_files/figure-latex/Figure_1.png}
 
 \textbf{Figure 1.}
 
-\textbf{A.} When inferring whether the world is one state or another
-(\(P(y_t = 1)\) or \(P(y_t = 0)\), respectively), the brain integrates
-ambiguous sensory signals \(s_t\) with internal predictions that reflect
-prior knowledge about the environment. One source of prior knowledge is
-the temporal autocorrelation of natural stimuli, in which the recent
-past often predicts the near future. The integration of external inputs
-and internal predictions depends on the weights assigned to incoming
-sensory data (\(\beta_S \times s_t\)) and to internal prediction derived
-from previous experiences (\(\beta_P \times y_{t-1}\), dotted versus
-solid lines, simulated data), respectively. \(\beta_S\) determines the
-slope, and \(\beta_P\) the shift of the psychometric function that links
-\(s_t\) and \(y_t\). Importantly, the balance
-\(\Delta_{S-P} = \beta_S - \beta_P\) is known to alternate between two
-opposing modes: During the external mode (left), perception is largely
-determined by \(\beta_S \times s_t\), which is reflected by a steep
-slope and a small shift of the psychometric curve. Conversely, during
-the internal mode (right), perception is shaped by
-\(\beta_P \times y_{t-1}\), resulting in a shallow slope and a large
-shift of the psychometric curve.
+\textbf{A.} Perception integrates ambiguous sensory signals \(s_t\) with
+internal predictions that reflect prior knowledge about the world. One
+source of prior knowledge is the temporal autocorrelation of natural
+environments, where the recent past often predicts the near future. The
+integration of external inputs and internal predictions depends on the
+weights assigned to incoming sensory data (\(\beta_S \times s_t\)) and
+to internal prediction derived from previous experiences
+(\(\beta_P \times y_{t-1}\), dotted versus solid lines, simulated data),
+respectively. \(\beta_S\) determines the slope, and \(\beta_P\) the
+shift of the psychometric function that links \(s_t\) and \(y_t\).
+Importantly, the balance \(\Delta_{S-P} = \beta_S - \beta_P\) is known
+to alternate between two opposing modes: During the external mode
+(left), perception is largely determined by \(\beta_S \times s_t\),
+which is reflected by a steep slope and a small shift of the
+psychometric curve. Conversely, during the internal mode (right),
+perception is shaped by \(\beta_P \times y_{t-1}\), resulting in a
+shallow slope and a large shift of the psychometric curve.
 
 \textbf{B.} We conducted a double-blind placebo-controlled experiments
 in 28 healthy human participants, who received a continuous infusion
 with either the NMDAR antagonist S-ketamine or saline. During the
-infusion, the participants viewed an ambiguous SFM stimulus that was
-compatible with two mutually exclusive subjective experiences (left
-vs.~rightward rotation of the front surface, red arrows). This induced
-the phenomenon of bistable perception: While the ambiguous stimulus
-remained constant, participants perceived only one direction of rotation
-(blue arrow), before switching to the competing alternative.
+infusion, the participants viewed SFM stimuli at varying levels of
+signal-to-ambiguity (SAR). The stimuli were compatible with two mutually
+exclusive subjective experiences (left vs.~rightward rotation of the
+front surface, green arrows). Fully ambiguous stimuli (SAR = 0) induce
+the phenomenon of bistable perception, where participants perceive
+spontaneous changes between the two possible interpretations of the
+stimulus (black arrows) at a rate that is governed by \(\beta_P\), the
+degree to which perception is shaped by internal predictions derived
+from previous experiences. For partially ambiguous stimuli (SAR
+\textgreater{} 0), perception reflects the weighted integration of
+internal predictions with external sensory data, which is governed by
+the balance \(\Delta_{S-P} = \beta_S - \beta_P\).
 
 \textbf{C.} Changes in the perceived direction of rotation of the SFM
 stimulus occur at brief depth-symmetric configurations of the stimulus
-(Supplemental Video S1). We therefore transformed the behavioral
-responses into a sequence of states \(t\) (80 1.5 sec intervals per
-block), each associated with a combination of the SAR-weighted input
-\(s_t\) and the perceived direction of rotation \(y_t\). We used GLMs to
-quantify the weights \(\beta_S\), \(\beta_P\) and \(\beta_B\), which
-reflect how inferences \(y_t\) were determined by the external inputs
-\(\beta_S \times s_t\), internal predictions \(\beta_P \times y_{t-1}\)
-and the constant bias \(\beta_B \times 1\).
+(overlaps, grey dotted lines; Supplemental Video S1). We transformed the
+behavioral responses into a sequence of states \(t\) (1.5 sec intervals,
+corresponding to the interval between consecutive overlaps), each
+associated with a combination of the SAR-weighted input \(s_t\) (green
+line) and the perceived direction of rotation \(y_t\) (black line).
+Participants reported whenever they experienced a change in conscious
+experience (black dots). The response times \(r_t\) was defined as the
+lag between the response and the last preceding overlap. We used
+HMM-GLMs to quantify the weights \(\beta_S\), \(\beta_P\) and
+\(\beta_B\), which reflect how the reported percepts \(y_t\) were
+determined by the external inputs \(\beta_S \times s_t\), the internal
+predictions \(\beta_P \times y_{t-1}\), and the constant bias
+\(\beta_B \times 1\), separately for the external mode (upper panel, 60
+sec of example data) and the internal mode (lower panel, 60 sec of
+example data with identical \(s(t)\) for visualization). In the external
+mode, perception follows the external stimulus closely (high
+\(\Delta_{S-P} = \beta_S - \beta_P\)). In the internal mode, perception
+is shaped more strongly by internal predictions derived from previous
+experiences (low \(\Delta_{S-P} = \beta_S - \beta_P\)).
 
 \newpage
 
@@ -1456,38 +1490,39 @@ only 0.12 in patients and 0.18 in controls.
 \includegraphics{modes_ketamine_scz_files/figure-latex/Supplemental_Figure_S1-1.pdf}
 \textbf{Supplemental Figure S1. GLM-HMM parameter recovery}
 
-\textbf{A}. The GLM-HMM is defined by the mode-dependent weights
-\(\beta_S\), \(\beta_B\), and \(\beta_P\). To test how well our GLM-HMM
-can recover changes in individual weights, we selected one of the six
-weights (3 weights x 2 modes) and varied its value parametrically from
--1 to 5. For each inversion, we kept all other weights at the
-group-level average obtained from the original data. For each of the six
-recovery analyses, we simulated synthetic experiences \(y_{syn}\) for n
-= 78400 overlaps (number of overlaps across participants in the
-S-ketamine experiment). We then fitted a randomly initialized GLM-HMM to
-the synthetic experiences, and extracted the weights recovered from the
-synthetic experiences \(y_{syn}\). We performed each recovery for 10
-iterations, computed the average posterior weights \(\beta_S\),
-\(\beta_B\), and \(\beta_P\), and correlated them with the synthetic
-input weights. The correlation with the parametric input weights and the
-posterior weights recovered from the simulated data were close to 1 for
-all weights (\(\beta_S\), \(\beta_B\), and \(\beta_P\), columns) and
-modes (external and internal, rows). Weights were recovered with high
-fidelity across a broad range of weights (average r = 0.99), and in
-particular at the group-level weights \(w_n\) obtained from the original
-data (black dotted line). The red dashed line represents the identity
-line (slope = 1, intercept = 0), indicating perfect recovery.
+\textbf{A}. Weight recovery from simulated data: GLM weights. The
+GLM-HMM is defined by the mode-dependent weights \(\beta_S\),
+\(\beta_B\), and \(\beta_P\). To test how well our GLM-HMM can recover
+changes in individual weights, we selected one of the six weights (3
+weights x 2 modes) and varied its value parametrically from -1 to 5. For
+each inversion, we kept all other weights at the group-level average
+obtained from the original data. For each of the six recovery analyses,
+we simulated synthetic experiences \(y_{syn}\) for n = 78400 overlaps
+(number of overlaps across participants in the S-ketamine experiment).
+We then fitted a randomly initialized GLM-HMM to the synthetic
+experiences, and extracted the weights recovered from the synthetic
+experiences \(y_{syn}\). We performed each recovery for 10 iterations,
+computed the average posterior weights \(\beta_S\), \(\beta_B\), and
+\(\beta_P\), and correlated them with the synthetic input weights. The
+correlation with the parametric input weights and the posterior weights
+recovered from the simulated data were close to 1 for all weights
+(\(\beta_S\), \(\beta_B\), and \(\beta_P\), columns) and modes (external
+and internal, rows). Weights were recovered with high fidelity across a
+broad range of weights (average r = 0.99), and in particular at the
+group-level weights \(w_n\) obtained from the original data (black
+dotted line). The red dashed line represents the identity line (slope =
+1, intercept = 0), indicating perfect recovery.
 
-\textbf{B}. We repeated the above procedure for each cell of the GLM-HMM
-transition matrix. We initialized models with parametric transition
-probabilities ranging from 0.8 to 1 (on-diagonal cells, external to
-external, internal to internal) and 0 to 0.2 (off-diagonal cells,
-external to internal, internal to external). Transition probabilities
-were recovered with high fidelity across a broad range of parameters
-(average r = 0.99), and in particular at the group-level estimates
-obtained from the original data (black dotted line). The red dashed line
-represents the identity line (slope = 1, intercept = 0), indicating
-perfect recovery.
+\textbf{B}. Weight recovery from simulated data: transition matrix. We
+repeated the above procedure for each cell of the GLM-HMM transition
+matrix. We initialized models with parametric transition probabilities
+ranging from 0.8 to 1 (on-diagonal cells, external to external, internal
+to internal) and 0 to 0.2 (off-diagonal cells, external to internal,
+internal to external). Transition probabilities were recovered with high
+fidelity across a broad range of parameters (average r = 0.99), and in
+particular at the group-level estimates obtained from the original data
+(black dotted line). The red dashed line represents the identity line
+(slope = 1, intercept = 0), indicating perfect recovery.
 
 \newpage
 
@@ -1918,7 +1953,7 @@ mean ± s.e.m.
 
 \newpage
 
-\section{Review}\label{review}
+\section{Review v1}\label{review-v1}
 
 We would like to thank the referees and the editorial team at Brain for
 the very helpful and constructive review of our work. In response to the
@@ -3402,7 +3437,7 @@ executive function impairment). Both would be interesting findings but
 this distinction is key to ongoing debates.}
 
 Thanks a lot for pointing out this important question. Regarding the
-assertion that our behavioural findings to not seem to capture the
+assertion that our behavioral findings to not seem to capture the
 phenomenology of psychosis, we would like to point out that improved
 behavioral accuracy, which is what we observed not only in healthy
 subjects under s-ketamine but also in patients with Scz, is precisely
@@ -3954,12 +3989,315 @@ provide a more nuanced treatment of the relation of mode to traits and
 states (see Comment 4, Reviewer 3). We have revised this sentence as
 follows:
 
-Despite its positive effect on perceptual accuracy, external mode was
-associated with higher levels of dissociation in the S-ketamine
-experiment as measured by
-\emph{Clinician-Administered-Dissociative-States-Scale}\textsuperscript{34}
-(CADSS, \(\beta\) = \(1.05\) ± \(0.54\), T(\(208.05\)) = \(1.95\), p =
-\(0.05\), Supplemental Figure S6B).
+\begin{itemize}
+\tightlist
+\item
+  Despite its positive effect on perceptual accuracy, external mode was
+  associated with higher levels of dissociation in the S-ketamine
+  experiment as measured by
+  \emph{Clinician-Administered-Dissociative-States-Scale}\textsuperscript{34}
+  (CADSS, \(\beta\) = \(1.05\) ± \(0.54\), T(\(208.05\)) = \(1.95\), p =
+  \(0.05\), Supplemental Figure S6B).
+\end{itemize}
+
+\newpage
+
+\section{Review v2}\label{review-v2}
+
+We would like to thank the editorial team and the reviewers for the very
+insightful comments on our manuscript. In response, we have revised
+Figure 1 and have included a more nuanced discussion of response
+behavior as a confound. We also show correlations between mode balance
+and CAPS/PDI in our Supplement. We hope that with these changes, our
+manuscript will be acceptable for publication in Brain.
+
+\subsection{Reviewer 3}\label{reviewer-3}
+
+The authors have been very responsive and addressed most of my concerns;
+the paper has become clearer and the results more convincing. However,
+there are a few remaining points that are important to fully address,
+particularly the effect of choice-history.
+
+\subsubsection{Comment 1}\label{comment-1-3}
+
+\textbf{Task structure/response patterns: In the first draft the text
+seemed to imply that participants were holding down a button that
+corresponded to the percept they were actively perceiving. The revised
+text now indicates that participants respond freely when they detect a
+change in rotation. Also, the authors have now clarified that response
+time is the interval between a direction change and a participant's
+response. These clarifications are helpful, but they also lead to new
+questions about what the response patterns of participants look like in
+the raw data (i.e., does this mean that the internal mode corresponds to
+generally fewer responses? Why are response times similar in both modes
+similar if participants are more `disengaged' in the internal mode).
+Much of this confusion could be resolved by adding a simple schematic
+and example participant data to figure 1 or the supplement so that the
+structure of response patterns that correspond to different modes are
+made more intuitive to the reader.}
+
+We apologize if our previous presentation of the response time data has
+caused confusion. We believe that there are two separate points here:
+the frequency of reported changes in conscious experience, and the
+question whether participants disengage from the task.
+
+\begin{itemize}
+\item
+  The frequency of reported changes in conscious experience: the average
+  frequency in changes in the direction of rotation of the (partially)
+  disambiguated stimuli is 0.15 per overlap, i.e., if perception were
+  perfectly accurate, observers would experience a switch every 10
+  sec.~For fully ambiguous stimuli, participants perceive spontaneous
+  changes in conscious experience, which are characteristic of bistable
+  perception. In the current study, the rate of these spontaneous
+  changes ranged from \(0.05\) to \(0.22\) per overlap, corresponding to
+  intervals ranging from \(28.9\) to \(6.75\) sec.~In the external mode,
+  perception follows the stimulus more closely, and the rate of
+  perceived changes approaches the frequency of physical changes in the
+  external stimulus. It therefore depends on the baseline rate of
+  spontaneous perceptual changes whether external mode is associated
+  with more or less reported events.
+\item
+  Our results suggest that perception is predominantly driven by prior
+  knowledge during the internal mode. We have included a series of
+  control analyses that underline this is not due to transient
+  disengagement from the task. The fact that there is no significant
+  effect of mode on \(r_t\) supports this hypothesis. Supplemental
+  Figures S2 and S5 show the distribution of \(r_t\), and their relation
+  to mode.
+\end{itemize}
+
+We agree that an additional visualization will help the relation to mode
+clearer. We have updated Figure 1 accordingly:
+
+\includegraphics{./modes_ketamine_scz_files/figure-latex/Figure_1.png}
+
+\begin{itemize}
+\item
+  \textbf{Figure 1.}
+\item
+  \textbf{A.} \textbf{Perception integrates ambiguous sensory signals
+  \(s_t\) with internal predictions that reflect prior knowledge about
+  the world. One source of prior knowledge is the temporal
+  autocorrelation of natural environments, where the recent past often
+  predicts the near future. The integration of external inputs and
+  internal predictions depends on the weights assigned to incoming
+  sensory data (\(\beta_S \times s_t\)) and to internal prediction
+  derived from previous experiences (\(\beta_P \times y_{t-1}\), dotted
+  versus solid lines, simulated data), respectively. \(\beta_S\)
+  determines the slope, and \(\beta_P\) the shift of the psychometric
+  function that links \(s_t\) and \(y_t\). Importantly, the balance
+  \(\Delta_{S-P} = \beta_S - \beta_P\) is known to alternate between two
+  opposing modes: During the external mode (left), perception is largely
+  determined by \(\beta_S \times s_t\), which is reflected by a steep
+  slope and a small shift of the psychometric curve. Conversely, during
+  the internal mode (right), perception is shaped by
+  \(\beta_P \times y_{t-1}\), resulting in a shallow slope and a large
+  shift of the psychometric curve.}
+\item
+  \textbf{B.} \textbf{We conducted a double-blind placebo-controlled
+  experiments in 28 healthy human participants, who received a
+  continuous infusion with either the NMDAR antagonist S-ketamine or
+  saline. During the infusion, the participants viewed SFM stimuli at
+  varying levels of signal-to-ambiguity (SAR). The stimuli were
+  compatible with two mutually exclusive subjective experiences (left
+  vs.~rightward rotation of the front surface, green arrows). Fully
+  ambiguous stimuli (SAR = 0) induce the phenomenon of bistable
+  perception, where participants perceive spontaneous changes between
+  the two possible interpretations of the stimulus (black arrows) at a
+  rate that is governed by \(\beta_P\), the degree to which perception
+  is shaped by internal predictions derived from previous experiences.
+  For partially ambiguous stimuli (SAR \textgreater{} 0), perception
+  reflects the weighted integration of internal predictions with
+  external sensory data, which is governed by the balance
+  \(\Delta_{S-P} = \beta_S - \beta_P\).}
+\item
+  \textbf{C.} \textbf{Changes in the perceived direction of rotation of
+  the SFM stimulus occur at brief depth-symmetric configurations of the
+  stimulus (grey dotted lines; Supplemental Video S1). We transformed
+  the behavioral responses into a sequence of states \(t\) (80 1.5 sec
+  intervals per block), each associated with a combination of the
+  SAR-weighted input \(s_t\) (green line) and the perceived direction of
+  rotation \(y_t\) (black line). Participants reported whenever they
+  experienced a change in conscious experience (black dots). The
+  response times \(r_t\) was defined as the lag between the response and
+  the last preceding overlap. We used HMM-GLMs to quantify the weights
+  \(\beta_S\), \(\beta_P\) and \(\beta_B\), which reflect how the
+  reported percepts \(y_t\) were determined by the external inputs
+  \(\beta_S \times s_t\), the internal predictions
+  \(\beta_P \times y_{t-1}\), and the constant bias
+  \(\beta_B \times 1\), separately for the external mode (upper panel,
+  60 sec of example data) and the internal mode (lower panel, 60 sec of
+  example data with identical \(s(t)\) for visualization). In the
+  external mode, perception follows the external stimulus closely (high
+  \(\Delta_{S-P} = \beta_S - \beta_P\)). In the internal mode,
+  perception is shaped more strongly by internal predictions derived
+  from previous experiences (low \(\Delta_{S-P} = \beta_S - \beta_P\)).}
+\end{itemize}
+
+\subsubsection{Comment 2}\label{comment-2-3}
+
+\textbf{Analyses of individual differences: The authors note that their
+``experiments maximized intra-subject power and were not designed to
+detect inter-individual differences.'' However in their previous work
+using the same dataset (Weilnhammer et al., 2020) they did explore
+interindividual differences and found a significant positive
+relationship between hallucination severity and an analogous model
+parameter. Regardless of whether a similar finding holds true with their
+new modeling approach, it is important to show the results of a similar
+analysis to contextualize their findings.}
+
+Thanks a lot for pointing this out. In Weilnhammer et al.~2020, we found
+that psychosis proneness correlated with the gain of sensory processing.
+The gain variable reflected how much the accuracy of perception
+increases as a function of signal-to-ambiguity ratio. We agree that it
+is an interesting question for future research whether the balance
+between modes is, like gain, correlated to psychosis-proneness. However,
+in this analysis, we did not find such a correlation. We feel that the
+sample size is too small to make a strong statement based on the absence
+of a significant correlation. The respective plots are shown in
+Supplemental Figure S7.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{D.} Neither PDI, CAPS, nor 5-ASC scores were predictive of the
+  probability of external mode (shown separately for S-ketamine in red
+  and placebo in blue).
+\end{itemize}
+
+\subsubsection{Comment 3}\label{comment-3-3}
+
+\textbf{Choice history effects: As evidence that changes in responding
+represent differences in perception rather differences in choice
+persistence, the authors rely on: (i) prior literature which they note
+shows evidence of choice history effects and argue that choice
+persistence is unlikely in their paradigm because it does not require
+choices at every stimulus overlap, only following changes of mind. It is
+not clear to me that the brain mechanisms underlying choice persistence
+would simply be disengaged by the requirement to only report changes of
+mind. (ii) Perform an analysis showing that the current perceptual
+experience is better explained by previous `perceptual experience' than
+by previous stimulus. This is interesting but does not rule out the
+contribution of previous choice because choice and percept are
+intertwined. (iii) perform an analysis of confidence showing that
+confidence reports are predicted by posterior certainty. Unfortunately,
+this is also what I would expect to be predicted by a simpler model of
+choice persistence. Again, the reason is that posterior certainty
+depends on the prior i.e., previous posterior. Because the model does
+not have an explicit choice-history term, any effect of choice
+persistence would necessarily be absorbed into the previous posterior,
+masquerading as a perceptual phenomenon. (iv) Demonstrate that
+metacognitive performance (quantified as the correlation between
+confidence and perceptual accuracy) is worse in the internal mode. This
+result can also be alternatively attributed to choice persistence since
+the latter decouples behavioral choices from external input.}
+
+\textbf{Thus, while I appreciate the new analyses based on confidence,
+the interpretation of these results solely as a perceptual phenomenon
+seems largely due to the formulation of the GLM. To conclusively
+decouple choice persistence and perception, the authors might want to
+fit a GLM that incorporates the previous confidence report (proxy for
+subjective belief) in addition to the previous perceptual choice and
+stimulus. Ideally, the weighting on the previous choice would not be
+different across the two modes. Alternatively, the claims equating
+ketamine-induced alterations in mode dynamics to perceptual abnormality
+should be toned done further throughout the paper, allowing for the
+possibility of addressing the confound of choice persistence in future
+work.}
+
+We thank the reviewer for this clarification. We would like to emphasize
+that unlike paradigms in which participants perform perceptual choices
+at each trial, participants in our experiments did not make choices at
+every stimulus overlap, but only at a fraction of overlaps, whenever
+they experienced changes in perception (see Figure 1C). Our results
+therefore cannot be explained by actual choice persistence from trial to
+trial (or, in our case, overlap to overlap). Still, we agree that it is
+challenging to distinguish with certainty genuine perceptual changes
+from potential fluctuations in response behavior, because perception and
+report are naturally intertwined in our paradigm. It is important for
+future work to disentangle perception and response behavior with respect
+to modes. We feel this is a broader, open question in research on
+bistable perception, the neural correlates of conscious experience, and
+in our present analysis of mode dynamics, as all these areas equate
+responses with the content of perception.
+
+Following the reviewer's suggestion, we have revised the manuscript to
+highlight the importance of future research in disentangling response
+behavior from perceptual phenomena. Additionally, we have clarified
+throughout the paper that while our findings on mode dynamics suggest a
+relationship with perception, they do not rule out potential
+contributions of report-related effects. The following changes have been
+made to the manuscript:
+
+\begin{itemize}
+\item
+  Methods section: lease note that we assessed participants' perception
+  of the stimulus based on a fixed response mapping. In our paradigm,
+  perception and reports are therefore inherently intertwined, with the
+  participants' reports serving as the sole indicators of their
+  perceptual states.
+\item
+  Methods: Please note that the interpretation of our results is
+  inherently limited to the hypotheses incorporated in the above GLMs.
+  In our paradigm, behavioral reports at the time of changes in
+  experience served as the only indicators of the perceptual and
+  metacognitive states of the participants. These behavioral reports
+  were collected with a fixed stimulus-response mapping, such that the
+  GLM-based analyses cannot fully separate perception and response
+  behavior.
+\item
+  Results: Our results suggest that healthy participants under
+  S-ketamine and Scz patients spend more time in the external mode. As a
+  dynamic mechanism for psychotic experiences, alternations between
+  external and internal mode should have an effect at the level of
+  perception. This means that between-mode alternations should modulate
+  a perceptual decision variable that determines not only what is
+  consciously experienced, but also how the contents of perception are
+  evaluated by downstream cognition. The hypothesis that external and
+  internal modes are perceptual phenomena needs to be contrasted against
+  alternative scenarios in which external and internal modes are driven
+  primarily by fluctuations in arousal, high-level cognition, or
+  executive function. This is particularly important, as behavioral
+  reports served as the sole indicators of perceptual states in our
+  paradigm.
+\end{itemize}
+
+Furthermore, we acknowledge the potential utility of fitting a more
+comprehensive GLM model that incorporates previous confidence reports,
+previous perceptual choices, and stimulus history, as suggested by the
+reviewer. In the present data, however, we collected reports of
+perceptual content and confidence only at the time of changes in
+perception. To conclusively answer the reviewer's point, future
+experiment need gather perceptual reports and confidence at every
+overlap / trial. We followed the reviewer's suggestion and stress the
+importance of addressing the choice persistence confound in future work
+in the discussion:
+
+\begin{itemize}
+\tightlist
+\item
+  Discussion (\ldots) These observations do not, however, rule out the
+  possibility that external and internal modes have multiple and
+  potentially independent effects on the brain, including influences on
+  high-level cognition and response behavior, or that they are, to some
+  degree, dependent on global brain states. Since our analyses rely on
+  behavioral reports about changes in the content of perception, dynamic
+  changes in response behavior represent an additional potential
+  confound in the identification of external and internal modes. Future
+  work should use trial-wise reports of perception and confidence with
+  randomized response mappings to enable GLMs that can disentangle
+  perception and response behavior. No-report functional imaging
+  experiments, where the content of experiences is decoded without overt
+  behavioral signals\textsuperscript{70}, alongside pupillometry,
+  manipulations of neuromodulators that regulate global brain states, or
+  non-invasive brain stimulation, could help illuminate the causes and
+  consequences of these modes across the cortical hierarchy. Mapping the
+  neurocomputational dynamics of mode alternations will be crucial to
+  testing whether adjusting the balance between modes can mitigate
+  psychotic experiences and ultimately improve the lives of people
+  living with Scz.
+\end{itemize}
 
 \newpage
 
