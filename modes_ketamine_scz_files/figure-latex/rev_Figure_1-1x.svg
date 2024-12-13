@@ -27,15 +27,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="5.2408374"
-     inkscape:cx="22.801699"
-     inkscape:cy="231.73777"
-     inkscape:window-width="1512"
-     inkscape:window-height="842"
+     inkscape:zoom="2.6204187"
+     inkscape:cx="178.78822"
+     inkscape:cy="62.01299"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
      inkscape:window-x="0"
-     inkscape:window-y="38"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g17" />
+     inkscape:current-layer="g97732" />
   <defs
      id="defs1">
     <marker
@@ -2254,7 +2254,7 @@
            sodipodi:nodetypes="ccccccccccccccccccccc" />
         <path
            d="m 15.511597,388.5487 v 0 l 1.296836,0.77578 1.384071,-0.31596 1.126316,2.83266 1.347289,0.16724 1.2289,1.59528 1.379572,-0.22223 1.136535,2.66996 1.311632,0.59728 1.153227,2.5081 1.264885,1.16119 1.27632,1.02325 1.221834,1.68048 1.349433,0.10192 1.190555,2.05777 1.312644,0.5851 1.234619,1.52632 1.281364,0.9624 1.27645,0.98227 1.334842,0.31735"
-           style="fill:none;stroke:#000000;stroke-width:1.26176;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.749"
+           style="fill:none;stroke:#000000;stroke-width:1.26176;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.26175999,1.26175999;stroke-dashoffset:0;stroke-opacity:0.749"
            id="path952"
            sodipodi:nodetypes="ccccccccccccccccccccc" />
       </g>
@@ -2302,7 +2302,7 @@
            sodipodi:nodetypes="ccccccccccccccccccccc" />
         <path
            d="m 105.04821,404.23481 v 0 l 1.31078,-0.054 0.85915,-1.01768 2.15719,1.76506 1.06037,-0.59213 1.64801,0.67076 0.90011,-0.93656 2.08786,1.62295 1.23733,-0.21182 2.02364,1.47803 1.46938,0.28688 1.41262,0.16489 1.68307,0.74612 1.03111,-0.64813 1.83832,1.07978 1.23233,-0.2226 1.61963,0.60978 1.38757,0.11108 1.39338,0.13042 1.12214,-0.45938"
-           style="fill:none;stroke:#000000;stroke-width:1.26176;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.749"
+           style="fill:none;stroke:#000000;stroke-width:1.26176;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.26175999,1.26175999;stroke-dashoffset:0;stroke-opacity:0.749"
            id="path952-3"
            sodipodi:nodetypes="ccccccccccccccccccccc" />
       </g>
